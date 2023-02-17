@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="" method="POST">
+            <!--text giving as input-->
+            <h3>Register Here</h3>
+            <lable for="Name">Enter name:</lable>
+            <input type="text" id="Name" name="Name" value="Bharathi" readonly>
+            <br><br>
+            <lable for="Lname">Last Name:</lable>
+            <input type="text" id="Lname" name="Lname" value="Mahendran" readonly>
+            <br><br>
+            <!--email id as a input-->
+            <lable for="mail">Enter Email:</lable>
+            <input type="email" id="email" name="email"  required>
+            <br><br>
+            <!--password-->
+            <lable for="pwd">Enter Password:</lable>
+            <input type="password" id="pwd" name="pwd" >
+            <br><br>
+            <!--date of birth-->
+            <lable for="dob">Enter DOB:</lable>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+            <!--contact Num-->
+            <lable for=num">Enter contact:</lable>
+            <input type="number" id="num" name="num"  value="9863253012" required>
+            <br></br>
+            <!--radio button-->
+            <label>Gender:</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">female</label>
+            <input type="radio" id="Male" name="gender">
+            <label for="male">Male</label>
+            <br><br>
+            <!--checkbox-->
+            <label>Language Known:</label>
+            <input type="checkbox" id="lang1" name="lang1" value="english" checked>
+            <lable for="lang1">English</lable>
+            <input type="checkbox" id="lang2" name="lang2">
+            <lable for="lang2">Tamil</lable>
+            <input type="checkbox" id="lang3" name="lang2">
+            <lable for="lang3">Hindi</lable>
+            <br><br>
+            <!--for telephone num-->
+            <label for="phone">Enter a phone number:</label>
+            <input type="tel" id="phone" name="phone"
+            placeholder="123-45-678"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            <br><br>
+            <!--pin-->
+            <label for="pin">PIN:</label>
+            <input type="text" id="pin" name="pin"  maxlength="4" size="4">
+            <br><br>
+            <!--select nd option-->
+            <label for="location">Choose a location:</label>
+            <select id="location" name="location">
+            <option value="chennai">Chennai</option>
+            <option value="coimbatore">Coimbatore</option>
+            <option value="banglore">Banglore</option>option>
+            <option value="other">Other</option>
+            </select>
+            <br><br>
+            <!--stepcount-->
+            <label for="points">Step:</label>
+            <input type="number" id="points" name="points" min="5" max="50" step="5" size="10px">
+            <br><br>
+            <!--for uloading file-->
+            <label for="files">Select files:</label>
+            <input type="file" id="files" name="files" multiple>
+            <br><br>
+            <!--submit-->
+            <input type="submit" value="submit">
+            <!--refresh-->
+            <input type="reset" value="reset" disabled>
+            <button type="button" onclick="alert('Hi Bharathi!')">Click Me!</button>
+            <br><br>
+            <!--textarea-->
+            <fieldset">
+            <legend>Comment below!</legend>
+            <textarea name="message" rows="5" cols="20" >
+            </textarea>
+            </fieldset>
+
+            <!--same as week and time  and url and image and search -->
+
+        </form>
+    </body>
+</html>
