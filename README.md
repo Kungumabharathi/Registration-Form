@@ -1,2 +1,2 @@
 # HTML
-Simple registration Form Creation using HTML
+HTML basic Script which i was did for my practice.
